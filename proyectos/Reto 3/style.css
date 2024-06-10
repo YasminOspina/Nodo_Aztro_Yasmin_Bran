@@ -1,0 +1,23 @@
+body{
+    width: 680px;
+    padding: 40px;
+    background-color: white;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #222;
+}
+
+h1{
+    background-color: rgb(128, 223, 240);
+}
+
+form button{
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    border-radius:2px;
+    padding: 10px;
+    margin: 13px 0;
+    font-size: 15px;
+}

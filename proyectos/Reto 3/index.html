@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Creación Formulario </title>
+    
+</head>
+<body>
+    <Header>
+        
+            <h1>Nodo-Eafit</h1>
+            <h2>Formulario de Inscripción</h2>
+            <p>
+                <em>
+                    ¡Bienvenido al formulario de Inscripción para nuestros innovadores programas de Tecnología!
+                </em>
+            </p>
+            <p>
+                <em>
+                    Por favor completa este formulario con la información requerida y prepárate para sumergirte
+                    en un mundo de posibilidades tecnológicas ilimitadas.
+                </em>
+            </p>
+            <p>
+                <em>
+                    ¡Estamos emocionados de acompañarte en este apasionante viaje hacia el futuro digital!
+                </em>
+            </p>
+    </Header>
+    <main>
+        <form action="mailto:ysospinab@eafit.edu.co">
+            <fieldset>
+                <legend><strong>Datos Personales</strong></legend>
+                <div>
+                    <label for="names">Nombres </label>
+                    <input type="text" name="names" id="names" required placeholder="Escribe Nombres Completos">
+
+                    <label for="lastname">Apellidos </label>
+                    <input type="text" name="lastname" id="lastname" required placeholder="Escribe Apellidos Completos">
+                </div>
+                <br>
+                <div>
+                    <label for="type-identy">Tipo de Identidad</label>
+                    <select name="type-identy" id="type-identy" required>
+                        <option value="" disabled selected >Selecciona una Opción</option>
+                        <option value="001">Cédula de Ciudadanía</option>
+                        <option value="002">Tarjeta de Identidad</option>
+                        <option value="003">Pasaporte</option>
+                        <option value="004">Cédula de Extranjería</option>
+                    </select>
+                    <label for="number-identy">Número de Identidad</label>
+                    <input id="number-identy" type="number" name="number-identy" placeholder="Sin signos de puntuación">
+                </div>
+                <br>
+                <div>
+                    <label for="age">Edad</label>
+                    <input type="number" name="age" id="age" min="1" max="100" placeholder="Aquí">
+
+
+                    <label for="genre"> Selecciona tu Género : </label>
+                    <label for="Man">
+                        <input type="radio" name="genre" id="Man">
+                        Hombre
+                    </label>
+                    <label for="Woman">
+                        <input type="radio" name="genre" id="Woman">
+                        Mujer
+                    </label>
+                    <label for="Other">
+                        <input type="radio" name="genre" id="Other">
+                        Otro
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Datos de residencia</strong></legend>
+                <div>
+                    <label for="addres">Dirección</label>
+                    <input type="text" name="addres" id="addres" placeholder=" Calle 45 # 78 - 128">
+
+                    <label for="city">Ciudad</label>
+                    <select name="city" id="city">
+                        <option value="" selected disabled >Seleccione una opción</option>
+                        <option value="ME">Medellín</option>
+                        <option value="CO">Copacabana</option>
+                        <option value="BE">Bello</option>
+                        <option value="SA">Sabaneta</option>
+                        <option value="EV">Envigado</option>
+                        <option value="CD">Caldas</option>
+                        <option value="RN">Rionegro</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="country">País</label>
+                    <select name="country" id="country" required>
+                            <option value="" disabled selected >Selecione una opción</option>
+                            <option value="CO">Colombia</option>
+                    </select>
+
+                    <label for="department-Colombia">Departamentos de Colombia :</label>
+                    <select name="department-Colombia" id="department-Colombia" required>
+                        <option value="" disabled selected>Seleccione una Opción</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AN">Antioquia</option>
+                        <option value="AR">Arauca</option>
+                        <option value="AT">Atlántico</option>
+                        <option value="BL">Bolivar</option>
+                        <option value="BY">Boyacá</option>
+                        <option value="CA">Caldas</option>
+                        <option value="CQ">Caquetá</option>
+                        <option value="CS">Casanare</option>
+                        <option value="CU">Cauca</option>
+                        <option value="CE">Cesar</option>
+                        <option value="CH">Chocó</option>
+                        <option value="CO">Córdoba</option>
+                        <option value="CN">Cundinamarca</option>
+                        <option value="BG">Bogotá</option>
+                        <option value="GN">Guanía</option>
+                        <option value="GUV">Guaviare</option>
+                        <option value="HU">Huila</option>
+                        <option value="GJ">La Guajira</option>
+                        <option value="MG">Magdalena</option>
+                        <option value="MT">Meta</option>
+                        <option value="NR">Nariño</option>
+                        <option value="NS">Norte de Santander</option>
+                        <option value="PT">Putumayo</option>
+                        <option value="QD">Quindío</option>
+                        <option value="RS">Risaralda</option>
+                        <option value="SA">San Andrés y Providencia</option>
+                        <option value="ST">Santander</option>
+                        <option value="SC">Sucre</option>
+                        <option value="TL">Tolima</option>
+                        <option value="VA">Valle</option>
+                        <option value="VU">Vaupés</option>
+                        <option value="VC">Vichada</option>
+                     </select>  
+                </div>  
+            </fieldset>
+            <fieldset>
+                <legend><strong>Datos de Contacto</strong></legend>
+                <div>
+                    <label for="phone">Teléfono Fijo</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Opcional">
+                </div>
+                <br>
+                <div>
+                    <label for="cell-phone">Teléfono Celular</label>
+                    <input type="tel" name="cell-phone" id="cell-phone" placeholder="(+57) 301 450 1530">
+                </div>
+                <br>
+                <div>
+                    <label for="email">CorreoElectrónico</label>
+                    <input type="email" name="email" id="email" required placeholder="example@gmail.com">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Programas</strong></legend>
+                <div>
+                    <label for="programs">¿A qué Cursos deseas inscribirte?</label>
+                    <select name="programs" id="programs" required>
+                        <option value="" disabled selected >SELECCIONA UNA OPCIÓN</option>
+                        <option value="1">JOBS TO BE DONE</option>
+                        <option value="2">CLOUD NATIVE</option>
+                        <option value="3">FRONTED</option>
+                        <option value="4">BACKEND</option>
+                        <option value="5">FUNDAMENTALS</option>
+                        <option value="6">PYTHON</option>
+                        <option value="7">MARKETING DIGITAL</option>
+                    </select>
+
+                    <label for="modality">Modalidad</label>
+                    <select name="modality" id="modality" required>
+                        <option value="" disabled selected >Selecciona un opción</option>
+                        <option value="PRE">Presencial</option>
+                        <option value="ONL">Online</option>
+                    </select>
+                </div>
+                <p>
+                    Para mas información de los <em><strong>Programas</strong></em> ingresa a nuestra página de 
+                    <a href="https://es.nodoeafit.com/cursos-nodo/" target="_blank">Nodo-Eafit</a>
+                </p> 
+            </fieldset>
+            <fieldset>
+                    <legend><strong>Cuentanos de ti</strong></legend>
+                <div>
+                    <label for="Description">Haz una descripción corta de ti <u>(Máximo 300 carácteres)</u></label>
+                    <br>
+                    <textarea name="Description" id="Description" maxlength="300"></textarea>
+                </div>
+                <div>
+                    <label for="job">¿Estas Laborando Actualmente?</label>
+                    <select name="job" id="job">
+                        <option value="Yes">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <p>Los siguientes campos <strong>(Nombre,Apellido,CorreoElectrónico,País,Programa y Modalidad)</strong> son obligatorios</p>
+                </div>
+                <div>
+                    <button type="reset">Reiniciar</button>
+                    <button type="submit">Enviar</button>
+                </div>     
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
