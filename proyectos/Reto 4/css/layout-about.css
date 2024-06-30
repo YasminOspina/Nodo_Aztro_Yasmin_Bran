@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 30vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Lobster',sans-serif;
+}
+
+header h1{
+    background-image: url(jabones2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size:xx-large;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color:#FDFEFE
+}
+
+nav{
+    height:25%;
+    width: 100%;
+    background-color: #bfedbe;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+        
+}
+
+nav ul li {
+        background-color:#97c4ad ;
+        display: inline-block;
+        border-radius: 0.5rem;
+        margin-right: 80px; 
+        
+        & > a {
+            text-decoration: none;
+            color:#FDFEFE ;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 0.6em;
+        }
+    
+        &[active] {
+            background-color:#19810e;
+        }
+    }
+
+nav ul li:hover {
+    background-color: #8e978d;
+    cursor: pointer;
+}
+
+main{
+    height: 60vh;
+    background-color: #e6fcd9;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section{
+    background-color:#97c4ad;
+    height: 95%;
+    width: 95%;
+    padding: 1px;
+    display:block;
+    text-align:center;
+    box-shadow:11px 10px 43px 0px #e9d06c ; 
+    border-radius: 0.4rem;
+}
+
+article{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+footer{
+    height: 10vh;
+    background-color:  #8e978d;
+    padding: 1%;
+    list-style: none;
+}
+footer ul {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+footer ul li {
+    display: flex;
+    padding-left: 20px;
+}
+.span {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+

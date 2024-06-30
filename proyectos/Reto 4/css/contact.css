@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Adamina', sans-serif;
+}
+
+header{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-image: url(jabones2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-color: #97c4ad;*/
+    height: 150px;
+    width: 100%;
+    display: flex;
+    color:#FDFEFE ;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background-color: #bfedbe;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display:inline-block;
+    background-color:#97c4ad ;
+    border-radius: 0.3rem;
+    margin-right: 80px;  
+    
+    & > a {
+        text-decoration: none;
+        color:#FDFEFE ;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        padding: 0.6em;
+    }
+
+    &[active] {
+        background-color:#19810e;
+    }
+}
+
+nav ul li:hover {
+    background-color: #8e978d;
+    cursor: pointer;
+}
+
+.contenedor {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow:11px 10px 43px 0px #e9d06c;
+}
+.form {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, button {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0px;
+    
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: #8e978d;
+    height: 90px;
+    padding: 2%;
+    list-style: none;
+} 
+
+footer ul {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+footer ul li {
+    display: flex;
+    padding-left: 20px;
+}
+.span {
+    display: flex;
+    justify-content: space-between;
+}
