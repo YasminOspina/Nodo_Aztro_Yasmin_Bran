@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Reto 5 Ejercicios/Js</title>
+</head>
+<!--EJERCICIO 1
+Crea una interfaz a partir del modelo guía donde ingresando los datos de base y altura de un rectángulo,
+a través de un botón calcular sean observados los resultados de área, perímetro y diagonal (opcional)
+Aplica maquetación (HTML + CSS) para crear la interfaz y JavaScript para darle las funciones dinámicas 
+correspondiente al botón de calcular y arrojar los resultados.-->
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li active ><a href="#">Ejercicio 1</a></li>
+                <li><a href="segundo.html">Ejercicio 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form  class="contenedor" >
+        <h2>Calcula el área y perímetro de un rectángulo</h2>
+        <br>
+        <div>
+            <p>
+                Agrega los siguientes datos para hallar el área y el perímetro.
+            </p>
+            <p>
+                <img src="./css/1erejercicio.png" alt="imagen">
+            </p>
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="base">Valor de la base</label>
+            <input type="number" name="area" id="base" placeholder="ingrese el valor de la base">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="altura">Valor de la altura</label>
+            <input type="number" name="altura" id="altura" placeholder="ingrese el valor de la altura">
+        </div>
+        <br>
+        <div class="salida">
+            <label for="area">Resultado Área</label>
+            <input type="number" name="area" id="area" placeholder="Resultado área">
+        </div>
+        <br>
+        <div class="salida">
+            <label for="perimetro">Resultado Perímetro</label>
+            <input type="number" name="perimetro" id="perimetro" placeholder="Resultado perímetro">
+        </div>
+        <br>
+        </div class="button">
+            <input type="button" value="Calcular resultados" onclick="determinarresultado()">
+    </form>
+    
+</body>
+</html>
