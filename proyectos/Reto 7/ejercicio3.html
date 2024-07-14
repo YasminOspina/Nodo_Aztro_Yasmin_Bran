@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/ejercicio3.js"></script>
+    <link rel="stylesheet" href="./css/ejercicio3.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="container">
+        <div>
+            <h2>Calculo de Pesticida</h2>
+            <br>
+            <p>
+                Un agrónomo desea una forma rápida de encontrar cuantos litros 
+                de pesticida debe aplicar a un conjunto de terrenos de forma trapezoidal,
+                si por cada metro cuadrado debe aplicar 1.5 litros de pesticida. Además 
+                le piden que determine cuantos metros de cerca eléctrica son necesarios 
+                para rodear todo el terreno.
+            </p>
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="num1">Largo de la Pared: </label><br>
+            <input type="number" id="num1">
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="num2">Alto de la Pared: </label><br>
+            <input type="number" id="num2">
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="num3">Largo del Ladrillo:  </label><br>
+            <input type="number" id="num3">
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="num4">Alto del Ladrillo: </label><br>
+            <input type="number" id="num4">
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="resultado1">Resultado Final: </label><br>
+            <input type="number" id="resultado1">
+        </div>
+        <br>
+        <div class="button">
+            <input type="button" value="Calcular Resultado" onclick="calculoLadrillos()">
+        </div>
+    </form>
+</body>
+</html>

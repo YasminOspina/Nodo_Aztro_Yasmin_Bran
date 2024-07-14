@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/ejercicio1.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <form >
+        <header>
+            <h2>Calculador de promedio</h2>
+            <br>
+            <p>
+                Un nadador necesita conocer el promedio final de tiempo que gasta 
+                en recorrer una piscina de 100 metros, sabiendo que en el día el realiza 
+                cinco pruebas medidas en segundos
+            </p>
+        </header>
+        <br>
+        <h3>Ejercicio</h3>
+        <div class="entrada">
+            <label for="time1">Ingrese el tiempo 1: </label>
+            <input type="number" id="time1">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="time2">Ingrese el tiempo 2: </label>
+            <input type="number" id="time2">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="time3">Ingrese el tiempo 3: </label>
+            <input type="number"  id="time3">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="time4">Ingrese el tiempo 4: </label>
+            <input type="number"  id="time4">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="time5">Ingrese el tiempo 5: </label>
+            <input type="number"  id="time5">
+        </div>
+        <br>
+        <div class="entrada">
+            <label for="Pruebas">Número de Pruebas: </label>
+            <input type="number" id="totalPruebas">
+        </div>
+        <br>
+        <div class="salida">
+            <label for="resultado1">Resultado: </label>
+            <input type="number"  id="resultado1">
+        </div>
+        <br>
+        <div class="button">
+            <input type="button" value="calcular" onclick="promFinal()">
+        </div>
+    </form>
+</body>
+</html>
