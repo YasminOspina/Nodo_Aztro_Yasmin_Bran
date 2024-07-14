@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/ejercicio1.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ejercicios.css">
     <title>Ejercicio 1</title>
 </head>
 <body>
-    <form >
+    <form class="container">
         <header>
             <h2>Calculador de promedio</h2>
             <br>
@@ -19,45 +18,45 @@
             </p>
         </header>
         <br>
-        <h3>Ejercicio</h3>
-        <div class="entrada">
-            <label for="time1">Ingrese el tiempo 1: </label>
+        <div class="input-group">
+            <label for="time1">Ingrese el tiempo 1: </label><br>
             <input type="number" id="time1">
         </div>
         <br>
-        <div class="entrada">
-            <label for="time2">Ingrese el tiempo 2: </label>
+        <div class="input-group">
+            <label for="time2">Ingrese el tiempo 2: </label><br>
             <input type="number" id="time2">
         </div>
         <br>
-        <div class="entrada">
-            <label for="time3">Ingrese el tiempo 3: </label>
+        <div class="input-group">
+            <label for="time3">Ingrese el tiempo 3: </label><br>
             <input type="number"  id="time3">
         </div>
         <br>
-        <div class="entrada">
-            <label for="time4">Ingrese el tiempo 4: </label>
+        <div class="input-group">
+            <label for="time4">Ingrese el tiempo 4: </label><br>
             <input type="number"  id="time4">
         </div>
         <br>
-        <div class="entrada">
-            <label for="time5">Ingrese el tiempo 5: </label>
+        <div class="input-group">
+            <label for="time5">Ingrese el tiempo 5: </label><br>
             <input type="number"  id="time5">
         </div>
         <br>
-        <div class="entrada">
-            <label for="Pruebas">Número de Pruebas: </label>
+        <div class="input-group">
+            <label for="Pruebas">Número de Pruebas: </label><br>
             <input type="number" id="totalPruebas">
         </div>
         <br>
-        <div class="salida">
-            <label for="resultado1">Resultado: </label>
+        <div class="input-group">
+            <label for = "resultado1">Total Resultado: </label><br>
             <input type="number"  id="resultado1">
         </div>
         <br>
         <div class="button">
-            <input type="button" value="calcular" onclick="promFinal()">
+            <input type="button" value="Calcular" onclick="promFinal()">
         </div>
     </form>
+    <script src="./js/ejercicio1.js"></script>
 </body>
 </html>
