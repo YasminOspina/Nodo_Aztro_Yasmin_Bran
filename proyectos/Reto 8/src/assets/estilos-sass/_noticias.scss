@@ -1,0 +1,40 @@
+.noticias{
+    width: 50%;
+    padding: 80px;
+    margin: 30px,;
+    background-color: $oscuro;
+    display: block;
+    text-align:left;
+
+    &__playstation--1{
+        @include estilos-texto($primario,16px,$fuente1); 
+        text-align:left
+    }
+
+    &__switch--2{
+        @include estilos-texto($primario,16px,$fuente1);
+        text-align:left 
+    }
+    &__xbox--3{
+        @include estilos-texto($primario,16px,$fuente1);
+        text-align:left 
+    }
+    h2{
+        @include estilos-texto($color-tex-btn,20px,$fuente1);
+        font-weight: 400;
+        text-align:left;
+    }
+
+    p{
+        @include estilos-texto($gris,16px,$fuente3);
+        text-align:left;
+    }
+
+    hr{
+        border-color: $primario;
+    }
+    article{
+        margin: 30px;
+    }
+}
+
